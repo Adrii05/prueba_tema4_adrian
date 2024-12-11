@@ -16,7 +16,7 @@ export async function getCookie(name) {
 export async function setCookie(name, value) {
   const expires = new Date(Date.now() + EXPIRE_TIME)
   const cookieStore = await cookies()
- 
+
   cookieStore.set({
     name: name,
     value: JSON.stringify({ ...value, expires }),
@@ -41,7 +41,7 @@ export function updateCookie(name, value) {
 
 export async function deleteCookie(name) {
   const cookieStore = await cookies()
- 
+
   cookieStore.set({
     name,
     value: "",
