@@ -35,6 +35,6 @@ CREATE TABLE pacientes (
 
 INSERT INTO pacientes (nombre, localidad, fecha_nacimiento) 
 VALUES 
-  ('Monitor 17 pulgadas', 'Monitor plano LCD', 110.22),
-  ('Teclado', 'Teclado USB en español', 20.12),
-  ('Impresora', 'Impresora láser a color', 360.05);
+  ('Pedro', 'Lucena', '1985-12-05'),
+  ('Julio', 'Monturque', '2003-08-15'),
+  ('María', 'Puente Genil', '1970-10-25');
